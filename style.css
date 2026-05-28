@@ -75,15 +75,3 @@ abbr{
     text-decoration: underline;
     cursor: help;
 }
-@media (max-width:768px){
-
-    p{
-        font-size:20px;
-    }
-
-    .bigcat,
-    .topcat{
-        width:100%;
-    }
-
-}
