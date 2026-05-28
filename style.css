@@ -18,11 +18,11 @@ body{
 }
 .bigcat{
     width:12cm;
-    height:12cm;
+    height:auto;
 }
 .topcat{
     width:15cm;
-    height:9cm;
+    height:auto;
 }
 
 
@@ -74,4 +74,16 @@ td{
 abbr{
     text-decoration: underline;
     cursor: help;
+}
+@media (max-width:768px){
+
+    p{
+        font-size:20px;
+    }
+
+    .bigcat,
+    .topcat{
+        width:100%;
+    }
+
 }
